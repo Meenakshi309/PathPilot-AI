@@ -43,7 +43,7 @@ PathPilot-AI/
 └── README.md
 ```
 
-The `server/` and `docs/` folders will be added as the corresponding setup tasks are completed.
+The `server/` folder will be completed as the backend setup task is completed.
 
 ## Getting Started
 
@@ -91,6 +91,8 @@ See `client/.env.example` for the example configuration.
 
 ## Team Workflow
 
+- Use branch prefixes: `feature/`, `fix/`, and `chore/`.
+- All changes to `main` must go through a pull request with at least one approval.
 - Use feature branches instead of working directly on `main`.
 - Create small pull requests and link the relevant GitHub Issue.
 - Review a teammate's changes before merging.
