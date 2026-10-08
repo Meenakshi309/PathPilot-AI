@@ -10,6 +10,12 @@ app.get("/", (_req, res) => {
     message: "PathPilot AI backend is running 🚀"
   });
 });
+app.get("/api/health", (_req, res) => {
+  res.json({
+    status: "ok",
+    message: "PathPilot AI backend is healthy"
+  });
+});
 
 app.listen(PORT, () => {
   console.log(`PathPilot AI backend running on http://localhost:${PORT}`);
